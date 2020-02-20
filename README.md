@@ -8,20 +8,19 @@ Browse to the download location, and run `setup.bat`.
 
 Or, alternatively:
 
-`
+```
 python3 -m pip install -r requirements.txt
-
-`
+```
 
 To run, open `start.bat`.
 
 ## Configuration
 
-To change the phrases that map to the quick chat commands, 
+TODO
 
-## Speech Training*
+## Speech Training
 
-If you find that the recognition accuracy is low, you can train the service to your voice, by running Windows Speech Recognition from the Start Menu, and following the steps.
+If you find that the recognition accuracy is low, you can train the service to your voice, by running Windows Speech Recognition from the Start Menu, and following the steps, Though i'm not certain if this helps within RLSTT
 
 ### TODO:
 * Find a detection method that doesn't involve 12-16 callbacks
