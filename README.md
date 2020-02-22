@@ -23,6 +23,5 @@ TODO
 If you find that the recognition accuracy is low, you can train the service to your voice, by running Windows Speech Recognition from the Start Menu, and following the steps, Though i'm not certain if this helps within RLSTT
 
 ### TODO:
-* Find a detection method that doesn't involve 12-16 callbacks
 * Auto-detect in-game quick-chat settings, if possible
 * Test setup.bat on a clean Python install
