@@ -1,4 +1,3 @@
-pyautogui
 pywin32==225
 pypiwin32
 comtypes==1.1.4
