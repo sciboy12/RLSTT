@@ -1,26 +1,12 @@
-# RLSTT - Voice-activated Quick-chat for Rocket League on Windows
+## RLSTT - Voice-activated Quick-chat for Rocket League on Windows
 
-## Installation
-
-Download Python 3 from [Here](https://www.python.org/downloads/).
-
-Browse to the download location, and run `setup.bat`.
-
-Or, alternatively:
-
-```
-python3 -m pip install -r requirements.txt
-```
-
-To run, open `start.bat`.
-
-## Configuration
+### Configuration
 
 TODO
 
-## Speech Training
+### Speech Training (Untested, may not apply to RLSTT)
 
-If you find that the recognition accuracy is low, you can train the service to your voice, by running Windows Speech Recognition from the Start Menu, and following the steps, Though i'm not certain if this helps within RLSTT
+If you find that the recognition accuracy is low, you can train the service to your voice by running Windows Speech Recognition from the Start Menu and following the steps.
 
 ### TODO:
 * Auto-detect in-game quick-chat settings, if possible
