@@ -6,7 +6,11 @@ import keyboard
 enable_ptt = True
 
 def SendMessage(msg):
-    if keyboard.is_pressed('l'):
+    if enable_ptt:
+        if keyboard.is_pressed('l'):
+            print('test')
+            keyboard.write(msg)
+    else:
         keyboard.write(msg)
         
 # List of messages/commands
@@ -24,7 +28,7 @@ class MappingRule(MappingRule):
             "whew|phew":                Function(SendMessage, msg="32"),
             "wow":                      Function(SendMessage, msg="33"),
             "close one":                Function(SendMessage, msg="34"),
-            "dang it|darn it":     Function(SendMessage, msg="41"),
+            "dang it|darn it":          Function(SendMessage, msg="41"),
             "no problem":               Function(SendMessage, msg="42"),
             "whoops|oops":              Function(SendMessage, msg="43"),
             "sorry":                    Function(SendMessage, msg="44"),
