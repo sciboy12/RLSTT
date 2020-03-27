@@ -24,4 +24,3 @@ If you find that the recognition accuracy is low, you can train the service to y
 
 ### TODO:
 * Auto-detect in-game quick-chat settings, if possible
-* Test setup.bat on a clean Python install
