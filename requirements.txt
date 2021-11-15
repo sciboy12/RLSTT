@@ -1,5 +1,5 @@
-pywin32==225
+pywin32
 pypiwin32
-comtypes==1.1.4
 dragonfly2
 keyboard
+dragonfly2[kaldi]
