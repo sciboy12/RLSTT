@@ -2,5 +2,5 @@
 
 ## TODO:
 * Auto-detect in-game quick-chat settings, if possible
-* Implement/Test Linux support (may already work as of a32bf9974b86a5ab43319b0dd52648d035dc9324)
+* Implement/Test Linux support (may already work due to usage of kaldi)
 * Add Config section to README
