@@ -56,7 +56,7 @@ class MappingRule(dragonfly.MappingRule):
             "what a game":          dragonfly.Function(WriteMessage, msg="14"),
 
             # Text chat
-            "send <msg>":       dragonfly.Function(lambda text: Sendtext(msg))
+            "send <msg>":       dragonfly.Function(lambda msg: WriteText(msg))
             }
 
     extras = [ dragonfly.Dictation("msg") ]
