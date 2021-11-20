@@ -1,4 +1,4 @@
-# RLSTT - Voice-activated Quick-chat for Rocket League on Windows
+# RLSTT - Speech-to-text/quick chat for Rocket League via Kaldi
 ## Setup
 
 ### Requirements
@@ -16,7 +16,7 @@ Download a model from [daanzu/kaldi-active-grammar](https://github.com/daanzu/ka
 
 `EnableDictation`: Enables dictation via text chat
 
-`AutoSend`: (dictate only) Automatically press Enter after message is written 
+`AutoSend`: (dictate only) Automatically press Enter after message is written
 
 *All options are found towards the top of main.py
 
